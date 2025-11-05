@@ -12,8 +12,7 @@ int main()
         }
         i++;
     }
-    cout<<c;
-    
+    cout<<c;    
     return 0;  
 
 }
