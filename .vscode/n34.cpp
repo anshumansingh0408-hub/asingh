@@ -1,6 +1,22 @@
 # include<bits/stdc++.h>
 using namespace std;
 int main()
+/*{
+   for(int i=5;i>=1;i--)
+   {
+    for(int j=1;j<=5-i;j++)
+    {
+        cout<<" ";
+    }
+    for (int k=1;k<=2*i-1;k++)
+    {
+        cout<<i;
+    }
+    cout<<endl;
+   }
+   return 0;
+
+}*/
 {
    for(int i=1;i<=5;i++)
    {
@@ -10,7 +26,7 @@ int main()
     }
     for (int k=1;k<=2*i-1;k++)
     {
-        cout<<"*";
+        cout<<i;
     }
     cout<<endl;
    }
