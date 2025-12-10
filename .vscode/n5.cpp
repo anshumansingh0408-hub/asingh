@@ -19,7 +19,7 @@ int main()
             cin>>b[i][j];
         }
     }
-    cout<<"Enter element of 3rd matrix:";
+    cout<<" elements of 3rd matrix:"<<endl;
     for(i=0;i<3;i++)
     {
         for(j=0;j<3;j++)

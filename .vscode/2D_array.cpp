@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int a[3][3],b[6][6],c[3][3],i,j;
+    int a[3][3],b[3][3],c[3][3],i,j;
     cout<<"Enter element of 1st matrix:";
     for(i=0;i<3;i++)
     {
@@ -19,7 +19,7 @@ int main()
             cin>>b[i][j];
         }
     }
-    cout<<"Enter element of 3rd matrix:";
+    cout<<"elements of 3rd matrix:"<<endl;
     for(i=0;i<3;i++)
     {
         for(j=0;j<3;j++)
